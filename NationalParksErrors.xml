@@ -3,7 +3,7 @@
 <!-- ERROR 1: Root Element Name Incorrect! -->
 <NationalPark
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/LordDelta314/Assignment4---XML/main/NationalParks.xsd">
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/rllajake/AssignmentFour/main/NationalParks.xsd">
 
 	<!-- ERROR 2: Required Attribute(NearestAirport) is missing! -->
 	<NationalPark Rating="4.9">
