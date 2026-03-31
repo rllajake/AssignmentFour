@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified"
+attributeFormDefault="unqualified">
+	
+	<!-- National Parks Root -->
+	<xs:element name="NationalParks" type="NationalParksType"/>
+
+	<!-- Type specification for National Parks-->
+	<xs:complexType name="NationalParksType">
+		<xs:sequence>
+
+			<!-- National Park element -->
+			<xs:element name="NationalPark" type="NationalParkType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Type specification for National Park -->
+	<xs:complexType name="NationalParkType">
+		<xs:sequence>
+			<!-- Name, Phone, and Address elements as part of National Park -->
+			<xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+
+		<!-- Required/Optional attributes(airport required, rating optional) -->
+		<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+		<xs:attribute name="Rating" type="xs:string" use="optional"/>
+	</xs:complexType>
+
+	<!-- Complex type for element "Address" -->
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<!-- Child elements Number, Street, City, State, and Zip as part of Address -->
+			<xs:element name="Number" type="xs:int" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="State" type="StateType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Zip" type="xs:string" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Simple type for element "State" -->
+	<xs:simpleType name="StateType">
+		<xs:restriction base="xs:string">
+			<xs:length value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

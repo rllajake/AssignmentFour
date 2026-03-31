@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NationalParks
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/rllajake/AssignmentFour/main/NationalParks.xsd">
+
+	<!-- Grand Canyon National Park(from example) -->
+	<NationalPark NearestAirport="FlagStaff" Rating="4.9">
+		<Name>Grand Canyon</Name>
+
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+
+		<Address>
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Arcadia National Park -->
+	<NationalPark NearestAirport="Trenton">
+		<Name>Acadia National Park</Name>
+
+		<Phone>207-288-3338</Phone>
+
+		<Address>
+			<Number>25</Number>
+			<Street>Visitor Center Road</Street>
+			<City>Bar Harbor</City>
+			<State>ME</State>
+			<Zip>04609</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Badlands National Park -->
+	<NationalPark NearestAirport="Rapid City" Rating="4.8">
+		<Name>Badlands National Park</Name>
+
+		<Phone>605-433-5361</Phone>
+
+		<Address>
+			<Number>25216</Number>
+			<Street>Ben Reifel Road</Street>
+			<City>Interior</City>
+			<State>SD</State>
+			<Zip>57750</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Big Bend National Park -->
+	<NationalPark NearestAirport="Midland">
+		<Name>Big Bend National Park</Name>
+
+		<Phone>432-477-2251</Phone>
+		<Phone>432-729-4308</Phone>
+
+		<Address>
+			<Number>1</Number>
+			<Street>Panther Junction</Street>
+			<City>Big Bend National Park</City>
+			<State>TX</State>
+			<Zip>79834</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Capitol Reef National Park -->
+	<NationalPark NearestAirport="Grand Junction" Rating="4.7">
+		<Name>Capitol Reef National Park</Name>
+
+		<Phone>435-425-3791</Phone>
+		<Phone>435-425-4106</Phone>
+
+		<Address>
+			<Number>52</Number>
+			<Street>West Headquarters Drive</Street>
+			<City>Torrey</City>
+			<State>UT</State>
+			<Zip>84775</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Death Valley National Park -->
+	<NationalPark NearestAirport="Furnace Creek">
+		<Name>Death Valley National Park</Name>
+
+		<Phone>760-786-3200</Phone>
+		<Phone>760-786-2441</Phone>
+		<Phone>800-478-8564</Phone>
+
+		<Address>
+			<Number>579</Number>
+			<Street>P.O. Box 579</Street>
+			<City>Death Valley</City>
+			<State>CA</State>
+			<Zip>92328</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Everglades National Park -->
+	<NationalPark NearestAirport="Miami" Rating="4.5">
+		<Name>Everglades National Park</Name>
+
+		<Phone>305-242-7700</Phone>
+
+		<Address>
+			<Number>40001</Number>
+			<Street>State Road 9336</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33034</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Gates of the Arctic National Park -->
+	<NationalPark NearestAirport="Fairbanks">
+		<Name>Gates of the Arctic National Park</Name>
+
+		<Phone>907-459-3730</Phone>
+		<Phone>907-678-5209</Phone>
+
+		<Address>
+			<Number>101</Number>
+			<Street>Dunkel St</Street>
+			<City>Fairbanks</City>
+			<State>AK</State>
+			<Zip>99701</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Hawai'i Volcanoes National Park -->
+	<NationalPark NearestAirport="Hilo" Rating="4.7">
+		<Name>Hawai'i Volcanoes National Park</Name>
+
+		<Phone>808-985-6011</Phone>
+		<Phone>808-985-6000</Phone>
+		<Phone>808-985-6157</Phone>
+
+		<Address>
+			<Number>1</Number>
+			<Street>Crater Rim Drive</Street>
+			<City>Hawaii National Park</City>
+			<State>HI</State>
+			<Zip>96718</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Joshua Tree National Park -->
+	<NationalPark NearestAirport="Palm Springs">
+		<Name>Joshua Tree National Park</Name>
+
+		<Phone>760-367-5500</Phone>
+
+		<Address>
+			<Number>74485</Number>
+			<Street>National Park Drive</Street>
+			<City>Twentynine Palms</City>
+			<State>CA</State>
+			<Zip>92277</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Mammoth Cave National Park -->
+	<NationalPark NearestAirport="Louisville Muhammad Ali">
+		<Name>Mammoth Cave National Park</Name>
+
+		<Phone>270-758-2180</Phone>
+		<Phone>877-444-6777</Phone>
+
+		<Address>
+			<Number>1</Number>
+			<Street>Visitor Center Parkway</Street>
+			<City>Mammoth Cave</City>
+			<State>KY</State>
+			<Zip>42259</Zip>
+		</Address>
+	</NationalPark>
+</NationalParks>
